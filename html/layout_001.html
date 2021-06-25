@@ -1,12 +1,444 @@
 <!DOCTYPE html>
+<!-- html/ layout_001.html -->
 <html lang="ko-KR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
+  
+
+  <!--[if IE]>
+    <script src="../ie/html5shiv/dist/html5shive.min.js"></script>
+    <script scr="../ie/csspie/PIE.js"></script>
+    <script scr="../ie/ie9js/ie9.min.js"></script>
+    <script scr="../ie/respomsive.min.js"></script>
+  <![endif]-->
+  <link rel="shortcut icon" href="../favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="../favicon.png">
+
+  <!-- fontawesome5 -->
+  <link rel="stylesheet" href="../fonts/fontawesome5/css/all.min.css">
+
+  <link rel="stylesheet" href="../css/base/font.css">
+  <link rel="stylesheet" href="../css/base/root.css">
+  <link rel="stylesheet" href="../css/base/reset.css">
+  <link rel="stylesheet" href="../css/base/common.css">
+  <link rel="stylesheet" href="../css/src/layout_001.css">
+  
+  <title> project002_main</title>
+
 </head>
 <body>
-  
+  <!-- layout -->
+  <div id="wrap">
+    <header id="headBox">
+      <h1><a href="#"><span class="blind"> logo </span> </a></h1>
+      <nav class=" naviBox">
+        <h2 class="blind"> navigation </h2>
+        <h3 class="blind">  유저 네비게이션 </h3>
+        <ul class="usernavi_area">
+          <li><a href="#">join</a></li>
+          <li><a href="#"> login </a></li>
+          <li><a href="#">  my page  </a></li>
+          <li><a href="#"> community </a> </li>
+        </ul>
+        <h3 class="blind">  글로벌 네비게이션 </h3>
+        <ul class="gnbnavi_area">
+          <li><a href="./layout_002.html">about us</a></li>
+          <li><a href="./layout_003.html">magazine</a></li>
+          <li><a href="./layout_004.html">turntable</a></li>
+          <li><a href="#">design</a></li>
+          <li><a href="#">mall</a></li>
+        </ul>
+      </nav>
+    </header> <!-- // #headBox ============= -->
+    <section id = "viewBox">
+      <h2 class="blind"> 메인 광고 영역 </h2>
+      <div class="view_indicator none">
+        <ul>
+          <li><a href="#mainview_01"></a></li>
+          <li><a href="#mainview_02"></a></li>
+          <li><a href="#mainview_03"></a></li>
+        </ul>
+      </div>
+      <div class="view_area">
+        <h3> oldschool jazz vinyl </h3>
+        <h4> jazz masterpiece in stock. <br />
+          meet them now!</h4>
+        <h5 class="blind"> 바로 만나보세요 </h5>  
+        <button type="button"> 바루가기<i class="fas fa-arrow-right"></i> </button>  
+        <ul>
+          <li>
+            <dl id="mainview_01">
+              <dt> meet oldschool vinyl </dt>
+              <dd></dd>
+              <dd><a href="#"><span class="blind"> 바로가기 </span>
+                  </a>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl id="mainview_02">
+              <dt> 2021 new turntable </dt>
+              <dd></dd>
+              <dd>
+                <a href="#"><span class="blind"> 바로가기 </span>
+                </a>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl id="mainview_03">
+              <dt> retro design turntable </dt>
+              <dd></dd>
+              <dd>
+                <a href="#"><span class="blind"> 바로가기 </span>
+                </a>
+              </dd>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </section> <!-- // #viewBox ================ -->
+    <article id = "bestTTBox">
+      <h2 class="blind"> best turntable </h2>
+        <dl class="bestTT_area">
+          <dt> turntable best </dt>
+          <dd> <div class="bestTT_01">
+            <h3 class="blind"> 2021 신상품을 만나보세요 </h3>
+          </div>
+            <p> 2021 신상품 <br /> 사운드룩 dolce</p>
+            <button type="button"> 바로 가기  
+              <i class="fas fa-arrow-right"></i> </button>
+          </dd>
+          <dd><div class="bestTT_02">
+            <h3 class="blind"> 작년 가장 많이 팔린 턴테이블을 만나보세요  </h3>
+          </div>
+            <p> 올인원 턴테이블 베스트 <br /> slt-5080pro</p>
+            <button type="button"> 바로 가기  
+              <i class="fas fa-arrow-right"></i> </button>
+          </dd>
+          <dd><div class="bestTT_03">
+            <h3 class="blind"> 우드 디자인 턴테이블을 만나보세요 </h3>
+          </div>
+            <p>뱀부스타일 턴테이블<br /> slt-1080bt </p>
+            <button type="button"> 바로 가기  
+              <i class="fas fa-arrow-right"></i> </button>
+          </dd>
+        </dl>
+    </article> <!-- // #bestTTBox =============== -->
+    <section id = "subViewBox">
+      <h2 class="blind"> 2021 new turntable  </h2>
+      <h3 class="blind"> 2021 신상 턴테이블 입니다 </h3>
+      <div class="subView_area">
+        <dl class="subView_pop">
+          <dt> 사운드룩 dolce<br /> bluetooth radio turntable</dt>
+          <dd> </dd>
+          <dd>lp+블루투스+라디오+일체형스피커 꼭 필요하 것만 담은 
+            dolce 진정한 미니멈 리치 라이프를 경험하세요!</dd>
+          <dd><button type="button"> 바로가기 
+            <i class="fas fa-arrow-right"></i> </button></dd>
+        </dl>
+      </div>
+    </section> <!--// #subViewBox ============== -->
+    <article id = "recommendBox">
+      <h2 class="blind"> 취향에 맞는 턴테이블 추천 </h2>
+      <div class="recommend_01">
+        <div>
+          <p> 음악과 <br /> 레트로의 회귀 <br /> slt-7080bt <br />
+            <button type="button"> 바로가기
+              <i class="fas fa-arrow-right"></i>
+            </button></p>
+           
+        </div>
+      </div>
+      <div class="recommend_02">
+        <div>
+          <p> 스타일로<br /> 턴테이블 <br /> gpo 11 <br />
+            <button type="button"> 바로가기 
+              <i class="fas fa-arrow-right"></i>
+            </button> 
+          </p>
+        </div>
+      </div>
+      <div class="recommend_03">
+        <div>
+          <p> 보헤미안<br /> 턴테이블 <br /> slt-200bt <br />
+            <button type="button"> 바로가기 
+              <i class="fas fa-arrow-right"></i>
+            </button> 
+          </p>
+        </div>
+      </div>
+    </article> <!-- // #recommendBox =============== -->
+    <section id = "communityBox">
+      <h2 class="blind"> 사운드룩 음반신청게시판 </h2>
+      <p> 사운드룩 음반신청 게시판 <br />
+        찾으시는 음반이 없으시다면 신청하세요!
+      </p>
+    </section> <!-- // #communityBox ============== -->
+    <article id = "bestVinylBox">
+      <h2><i class="fas fa-compact-disc"></i> hot! 인기음반 </h2>
+      <h3> 시간을 따지지 않는 best음반 품절되기전에 만나보세요</h3>
+      <div class="vinyl_btn_area">
+        <ul>
+          <li> pop/rock </li>
+          <li> jazz/blues </li>
+          <li> hiphop </li>
+          <li> classic </li>
+          <li> funk/disco </li>
+          <li> 국내가요  </li>
+        </ul>
+      </div>
+      <div class="vinyl_box">
+        <h3 class="blind"> 인기 바이닐 목록입니다 </h3>
+        <ul class="viny_list_area">
+          <li >
+            <div class="vinyl pic01"></div>
+            <div class="vinyl_rarr">
+              <p> Cigarettes After Sex - Cigarettes After Sex[LP] </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button>
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li>
+        </ul>
+        <ul class="viny_list_area">
+          <li>
+            <div class="vinyl pic02"></div>
+            <div class="vinyl_rarr">
+              <p> Oasis(오아시스) - (Whats The Story) Morning Glory (Remastered)(Gateflod)(2LP) </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+              <i></i>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button>
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li>
+        </ul>
+        <ul class="viny_list_area">
+          <li>
+            <div class="vinyl pic03"></div>
+            <div class="vinyl_rarr">
+              <p> 보헤미안 랩소디 영화음악 (Queen - Bohemian Rhapsody OST Vinyl) [2LP] </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+              <i></i>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button>
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li>
+        </ul>
+        <ul class="viny_list_area">
+          <li>
+            <div class="vinyl pic04"></div>
+            <div class="vinyl_rarr">
+              <p> The Beatles(비틀즈) ‎– Abbey Road Anniversary[LP] </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+              <i></i>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button>
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li>
+        </ul>
+        <ul class="viny_list_area">
+          <li>
+            <div class="vinyl pic05"></div>
+            <div class="vinyl_rarr">
+              <p> The Beatles(비틀즈) ‎– 1[LP] </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+              <i></i>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button>
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li>
+        </ul>
+        <ul class="viny_list_area">
+          <li>
+            <div class="vinyl pic06"></div>
+            <div class="vinyl_rarr">
+              <p> Sid Vicious(시드 비셔스) - My Way[LP] </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+              <i></i>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button> 
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li>
+        </ul>
+        <ul class="viny_list_area">
+          <li>
+            <div class="vinyl pic07"></div>
+            <div class="vinyl_rarr">
+              <p> Charlie Puth(찰리 푸스) ‎– Voicenotes[LP] </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+              <i></i>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button>
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li>
+        </ul>
+        <ul class="viny_list_area">
+          <li>
+            <div class="vinyl pic08"></div>
+            <div class="vinyl_rarr">
+              <p> Michael Jackson (마이클 잭슨)- Dangerous (Picture Disc)[LP] </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+              <i></i>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button>
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li>
+        </ul>
+        <ul class="viny_list_area">
+          <li>
+            <div class="vinyl pic09"></div>
+            <div class="vinyl_rarr">
+              <p> David Bowie(데이비드 보위) - The Man Who Sold The World(Vinyl 12" Picture Disc)[LP] </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+              <i></i>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button>
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li>
+        </ul>
+        <ul class="viny_list_area">
+          <li>
+            <div class="vinyl pic10"></div>
+            <div class="vinyl_rarr">
+              <p> Lany(레이니) - Malibu Nights (LP) </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+              <i></i>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button>
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li>
+        </ul>
+        <ul class="viny_list_area">
+          <li>
+            <div class="vinyl pic11"></div>
+            <div class="vinyl_rarr">
+              <p> Charlie Puth(찰리 푸스) ‎– Nine Track Mind[LP] </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+              <i></i>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button>
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li>
+        </ul>
+        <ul class="viny_list_area">
+          <li>
+            <div class="vinyl pic12"></div>
+            <div class="vinyl_rarr">
+              <p> Ariana Grande(아리아나 그란데) - Positions[LP] </p>
+              <span> <del>41,900</del> </span>
+              <span> 40,000 </span>
+              <i></i>
+            </div>
+            <div class="vinyl_btn">
+              <button type="button"> 구매하기 </button>
+              <button type="button"> 장바구니 </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <p class="more_btn"><button type="button"> 더보기 
+        <i class="fas fa-arrow-right"></i>
+      </button></p>
+    </article> <!-- // #bestVinylBox =============== -->
+    <footer id = "footBox" >
+      <h2 class="blind"> 회사 소개 </h2>
+      <div class="site_infomation">
+        <div class="cs_area">
+          <h3> c/s center </h3>
+          <p> 통화량이 많을때는 QnA를 이용해주세요. </p>
+          <p> 1800 - 7298 </p>
+          <p> 평일 10:00 - 16:00 | 점심 12:00 - 13:00<br />
+          주말 및 공휴일 휴무 </p>
+        </div>
+        <div class="bank_area">
+          <h3> back info </h3>
+          <p> 국민은행 433401-01-316675<br />
+          기업은행 051-071336-04-019<br />
+          농협 355-0001-9764-13 </p>
+          <p> 예금주 &#40;주&#41; 사운드룩 </p>
+        </div>
+        <div class="mp_area">
+          <h3> my page </h3>
+          <p> 주문조회<br /> 장바구니 <br />
+          마이쿠폰 <br /> 회원정보 수정 </p>
+        </div>
+        <div class="community_area">
+          <h3> community </h3>
+          <p> 공지사항 <br /> 뉴스미디어 <br /> 음반신청 <br />
+          고객후기 </p>
+          <p> 질문답변 <br /> 자료실 <br /> 이벤트 <br />
+          사운드룩 TV</p>
+          </div>
+          <div class="snsnavi_area">
+            <h3>sns </h3>
+            <ul>
+              <li><a href="#"><span class="blind"> fb_logo </span>
+                <i class="fab fa-facebook"></i></a> </li>
+              <li><a href="#"><span class="blind"> yt_logo </span>
+                <i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><span class="blind"> ig_logo </span>
+                <i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>   
+      </div>
+      <div class="company_infomation">
+        <ul class="user_direction">
+          <li><a href="#"> 이용약관</a></li>
+          <li><a href="#"> 개인정보취급방침 </a></li>
+          <li><a href="#"> 이용안내</a></li>
+          <li><a href="#"> CUPOST </a></li>
+          <li><a href="#"> LG U </a></li>
+          <li><a href="#"> 고객님은 안전거래를 위해 결제 시 저희 쇼핑몰에서 가입한 구매안전<br /> 서비스를 이용하실 수 있습니다.</a></li>
+          <li><button type="button"> 서비스 가입사실확인 </button> </li>
+        </ul>
+        <address class="company_address">
+          <p>상호 &#58; &#40;주&#41;사운드룩 대표 &#58; 김문수  사업자등록번호 &#58; 117-81-23445   통신판매업 신고 &#58; 2013-고양일산서-378 <a href="#">사업자 정보 확인</a><br />
+            전화 &#58; 1800- 7398 주소 &#58; 경기 고양시 일산동구 고봉로658번길 136(상석동)
+          </p>
+        </address>
+        <p> copyright c 2018 &#40;주&#41;사운드룩 allright reserved </p>
+      </div>
+    </footer> <!-- // #footBox ================ -->
+  </div>
+  <!-- script -->
+  <!--  <script scr="../js/src/layout_001.js">
+    // script 
+  </script> -->
 </body>
 </html>
