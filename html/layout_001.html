@@ -25,62 +25,60 @@
   <link rel="stylesheet" href="../css/base/common.css">
   <link rel="stylesheet" href="../css/src/layout_001.css">
   
-  <title> project002_main</title>
+  <title> soundlook project 002</title>
 
 </head>
 <body>
   <!-- layout -->
   <div id="wrap">
     <header id="headBox">
-      <h1><a href="#"><span class="blind"> logo </span> </a></h1>
+      <h1><a href="#"><span class="blind"> soundlook </span> </a></h1>
       <nav class=" naviBox">
-        <h2 class="blind"> navigation </h2>
-        <h3 class="blind">  유저 네비게이션 </h3>
+        <h2 class="blind"> user navigation </h2>
         <ul class="usernavi_area">
           <li><a href="#">join</a></li>
-          <li><a href="#"> login </a></li>
-          <li><a href="#">  my page  </a></li>
-          <li><a href="#"> community </a> </li>
+          <li><a href="#">login</a></li>
+          <li><a href="#">my page</a></li>
+          <li><a href="#">community</a></li>
         </ul>
-        <h3 class="blind">  글로벌 네비게이션 </h3>
-        <ul class="gnbnavi_area">
+      </nav>
+      <div class="gnb_navigation">
+        <h2 class="blind"> 글로벌 네비게이션 </h2>
+        <ul>
           <li><a href="./layout_002.html">about us</a></li>
           <li><a href="./layout_003.html">magazine</a></li>
           <li><a href="./layout_004.html">turntable</a></li>
-          <li><a href="#">design</a></li>
+          <li><a href="./layout_005.html">design</a></li>
           <li><a href="#">mall</a></li>
         </ul>
-      </nav>
+      </div>
     </header> <!-- // #headBox ============= -->
     <section id = "viewBox">
       <h2 class="blind"> 메인 광고 영역 </h2>
       <div class="view_indicator none">
         <ul>
-          <li><a href="#mainview_01"></a></li>
-          <li><a href="#mainview_02"></a></li>
-          <li><a href="#mainview_03"></a></li>
+          <li><a href="#mainview_01"><span class="blind">광고 인디캐이터1</span></a></li>
+          <li><a href="#mainview_02"><span class="blind">광고 인디캐이터2</span></a></li>
+          <li><a href="#mainview_03"><span class="blind">광고 인디캐이터3</span></a></li>
         </ul>
       </div>
       <div class="view_area">
-        <h3> oldschool jazz vinyl </h3>
+        <!-- <h3> oldschool jazz vinyl </h3>
         <h4> jazz masterpiece in stock. <br />
           meet them now!</h4>
-        <h5 class="blind"> 바로 만나보세요 </h5>  
-        <button type="button"> 바루가기<i class="fas fa-arrow-right"></i> </button>  
-        <ul>
+        <a href="#">바로가기<i class="fas fa-arrow-right"></i> </a>   -->
+        <ul class="clearfix">
           <li>
-            <dl id="mainview_01">
-              <dt> meet oldschool vinyl </dt>
-              <dd></dd>
-              <dd><a href="#"><span class="blind"> 바로가기 </span>
-                  </a>
-              </dd>
+            <dl class="mainview_01">
+              <dt> jazz masterpiece in stock.</dt>
+              <dd> meet them now!</dd>
+              <dd><a href="#">바로가기 <i class="fas fa-arrow-right"></i></a></dd>
             </dl>
           </li>
           <li>
-            <dl id="mainview_02">
+            <dl class="mainview_02 none">
               <dt> 2021 new turntable </dt>
-              <dd></dd>
+              <dd>all in one </dd>
               <dd>
                 <a href="#"><span class="blind"> 바로가기 </span>
                 </a>
@@ -88,9 +86,9 @@
             </dl>
           </li>
           <li>
-            <dl id="mainview_03">
+            <dl class="mainview_03 none">
               <dt> retro design turntable </dt>
-              <dd></dd>
+              <dd> more about newtro </dd>
               <dd>
                 <a href="#"><span class="blind"> 바로가기 </span>
                 </a>
@@ -104,26 +102,27 @@
       <h2 class="blind"> best turntable </h2>
         <dl class="bestTT_area">
           <dt> turntable best </dt>
-          <dd> <div class="bestTT_01">
+          <dd> 
+            <div class="bestTT_01">
             <h3 class="blind"> 2021 신상품을 만나보세요 </h3>
-          </div>
+            </div>
             <p> 2021 신상품 <br /> 사운드룩 dolce</p>
-            <button type="button"> 바로 가기  
-              <i class="fas fa-arrow-right"></i> </button>
+            <a href="#"> 바로 가기  
+              <i class="fas fa-arrow-right"></i></a>
           </dd>
           <dd><div class="bestTT_02">
             <h3 class="blind"> 작년 가장 많이 팔린 턴테이블을 만나보세요  </h3>
-          </div>
+            </div>
             <p> 올인원 턴테이블 베스트 <br /> slt-5080pro</p>
-            <button type="button"> 바로 가기  
-              <i class="fas fa-arrow-right"></i> </button>
+            <a href="#"> 바로 가기  
+              <i class="fas fa-arrow-right"></i> </a>
           </dd>
           <dd><div class="bestTT_03">
             <h3 class="blind"> 우드 디자인 턴테이블을 만나보세요 </h3>
-          </div>
+            </div>
             <p>뱀부스타일 턴테이블<br /> slt-1080bt </p>
-            <button type="button"> 바로 가기  
-              <i class="fas fa-arrow-right"></i> </button>
+            <a href="#"> 바로 가기  
+              <i class="fas fa-arrow-right"></i> </a>
           </dd>
         </dl>
     </article> <!-- // #bestTTBox =============== -->
@@ -133,11 +132,11 @@
       <div class="subView_area">
         <dl class="subView_pop">
           <dt> 사운드룩 dolce<br /> bluetooth radio turntable</dt>
-          <dd> </dd>
+          <dd> <!-- 이미지 파일이 들어가는 목록입니다.--> </dd>
           <dd>lp+블루투스+라디오+일체형스피커 꼭 필요하 것만 담은 
             dolce 진정한 미니멈 리치 라이프를 경험하세요!</dd>
-          <dd><button type="button"> 바로가기 
-            <i class="fas fa-arrow-right"></i> </button></dd>
+          <dd><a href="#"> 바로가기 
+            <i class="fas fa-arrow-right"></i> </a></dd>
         </dl>
       </div>
     </section> <!--// #subViewBox ============== -->
@@ -146,27 +145,26 @@
       <div class="recommend_01">
         <div>
           <p> 음악과 <br /> 레트로의 회귀 <br /> slt-7080bt <br />
-            <button type="button"> 바로가기
+            <a href="#"> 바로가기
               <i class="fas fa-arrow-right"></i>
-            </button></p>
-           
+            </a></p>
         </div>
       </div>
       <div class="recommend_02">
         <div>
           <p> 스타일로<br /> 턴테이블 <br /> gpo 11 <br />
-            <button type="button"> 바로가기 
+            <a href="#"> 바로가기 
               <i class="fas fa-arrow-right"></i>
-            </button> 
+            </a> 
           </p>
         </div>
       </div>
       <div class="recommend_03">
         <div>
           <p> 보헤미안<br /> 턴테이블 <br /> slt-200bt <br />
-            <button type="button"> 바로가기 
+            <a href="#"> 바로가기 
               <i class="fas fa-arrow-right"></i>
-            </button> 
+            </a> 
           </p>
         </div>
       </div>
@@ -196,13 +194,17 @@
           <li >
             <div class="vinyl pic01"></div>
             <div class="vinyl_rarr">
-              <p> Cigarettes After Sex - Cigarettes After Sex[LP] </p>
+              <p> cigarettes after sex - cigarettes after sex[LP] </p>
               <span> <del>41,900</del> </span>
               <span> 40,000 </span>
             </div>
             <div class="vinyl_btn">
-              <button type="button"> 구매하기 </button>
-              <button type="button"> 장바구니 </button>
+              <a href="#"> 구매하기
+                <i class="fas fa-check"></i> 
+              </a>
+              <a href="#">장바구니 
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
           </li>
         </ul>
@@ -210,14 +212,18 @@
           <li>
             <div class="vinyl pic02"></div>
             <div class="vinyl_rarr">
-              <p> Oasis(오아시스) - (Whats The Story) Morning Glory (Remastered)(Gateflod)(2LP) </p>
+              <p> oasis(오아시스) - (whats the story) morning glory (remastered)(gateflod)(2LP) </p>
               <span> <del>41,900</del> </span>
               <span> 40,000 </span>
               <i></i>
             </div>
             <div class="vinyl_btn">
-              <button type="button"> 구매하기 </button>
-              <button type="button"> 장바구니 </button>
+              <a href="#"> 구매하기
+                <i class="fas fa-check"></i> 
+              </a>
+              <a href="#">장바구니 
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
           </li>
         </ul>
@@ -225,14 +231,18 @@
           <li>
             <div class="vinyl pic03"></div>
             <div class="vinyl_rarr">
-              <p> 보헤미안 랩소디 영화음악 (Queen - Bohemian Rhapsody OST Vinyl) [2LP] </p>
+              <p> 보헤미안 랩소디 영화음악 (queen - bohemian rhapsody OST vinyl) [2LP] </p>
               <span> <del>41,900</del> </span>
               <span> 40,000 </span>
               <i></i>
             </div>
             <div class="vinyl_btn">
-              <button type="button"> 구매하기 </button>
-              <button type="button"> 장바구니 </button>
+              <a href="#"> 구매하기
+                <i class="fas fa-check"></i> 
+              </a>
+              <a href="#">장바구니 
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
           </li>
         </ul>
@@ -240,14 +250,18 @@
           <li>
             <div class="vinyl pic04"></div>
             <div class="vinyl_rarr">
-              <p> The Beatles(비틀즈) ‎– Abbey Road Anniversary[LP] </p>
+              <p> the beatles(비틀즈) ‎– abbey road anniversary[LP] </p>
               <span> <del>41,900</del> </span>
               <span> 40,000 </span>
               <i></i>
             </div>
             <div class="vinyl_btn">
-              <button type="button"> 구매하기 </button>
-              <button type="button"> 장바구니 </button>
+              <a href="#"> 구매하기
+                <i class="fas fa-check"></i> 
+              </a>
+              <a href="#">장바구니 
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
           </li>
         </ul>
@@ -255,14 +269,18 @@
           <li>
             <div class="vinyl pic05"></div>
             <div class="vinyl_rarr">
-              <p> The Beatles(비틀즈) ‎– 1[LP] </p>
+              <p> the beatles(비틀즈) ‎– 1[LP] </p>
               <span> <del>41,900</del> </span>
               <span> 40,000 </span>
               <i></i>
             </div>
             <div class="vinyl_btn">
-              <button type="button"> 구매하기 </button>
-              <button type="button"> 장바구니 </button>
+              <a href="#"> 구매하기
+                <i class="fas fa-check"></i> 
+              </a>
+              <a href="#">장바구니 
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
           </li>
         </ul>
@@ -270,14 +288,18 @@
           <li>
             <div class="vinyl pic06"></div>
             <div class="vinyl_rarr">
-              <p> Sid Vicious(시드 비셔스) - My Way[LP] </p>
+              <p> sid vicious(시드 비셔스) - my way[LP] </p>
               <span> <del>41,900</del> </span>
               <span> 40,000 </span>
               <i></i>
             </div>
             <div class="vinyl_btn">
-              <button type="button"> 구매하기 </button> 
-              <button type="button"> 장바구니 </button>
+              <a href="#"> 구매하기
+                <i class="fas fa-check"></i> 
+              </a>
+              <a href="#">장바구니 
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
           </li>
         </ul>
@@ -285,14 +307,18 @@
           <li>
             <div class="vinyl pic07"></div>
             <div class="vinyl_rarr">
-              <p> Charlie Puth(찰리 푸스) ‎– Voicenotes[LP] </p>
+              <p> charlie puth(찰리 푸스) ‎– voicenotes[LP] </p>
               <span> <del>41,900</del> </span>
               <span> 40,000 </span>
               <i></i>
             </div>
             <div class="vinyl_btn">
-              <button type="button"> 구매하기 </button>
-              <button type="button"> 장바구니 </button>
+              <a href="#"> 구매하기
+                <i class="fas fa-check"></i> 
+              </a>
+              <a href="#">장바구니 
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
           </li>
         </ul>
@@ -300,14 +326,18 @@
           <li>
             <div class="vinyl pic08"></div>
             <div class="vinyl_rarr">
-              <p> Michael Jackson (마이클 잭슨)- Dangerous (Picture Disc)[LP] </p>
+              <p> michael jackson (마이클 잭슨)- dangerous (picture disc)[LP] </p>
               <span> <del>41,900</del> </span>
               <span> 40,000 </span>
               <i></i>
             </div>
             <div class="vinyl_btn">
-              <button type="button"> 구매하기 </button>
-              <button type="button"> 장바구니 </button>
+              <a href="#"> 구매하기
+                <i class="fas fa-check"></i> 
+              </a>
+              <a href="#">장바구니 
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
           </li>
         </ul>
@@ -315,14 +345,18 @@
           <li>
             <div class="vinyl pic09"></div>
             <div class="vinyl_rarr">
-              <p> David Bowie(데이비드 보위) - The Man Who Sold The World(Vinyl 12" Picture Disc)[LP] </p>
+              <p> david bowie(데이비드 보위) - the man who sold the world(vinyl 12" picture disc)[LP] </p>
               <span> <del>41,900</del> </span>
               <span> 40,000 </span>
               <i></i>
             </div>
             <div class="vinyl_btn">
-              <button type="button"> 구매하기 </button>
-              <button type="button"> 장바구니 </button>
+              <a href="#"> 구매하기
+                <i class="fas fa-check"></i> 
+              </a>
+              <a href="#">장바구니 
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
           </li>
         </ul>
@@ -330,14 +364,18 @@
           <li>
             <div class="vinyl pic10"></div>
             <div class="vinyl_rarr">
-              <p> Lany(레이니) - Malibu Nights (LP) </p>
+              <p> lany(레이니) - malibu nights (LP) </p>
               <span> <del>41,900</del> </span>
               <span> 40,000 </span>
               <i></i>
             </div>
             <div class="vinyl_btn">
-              <button type="button"> 구매하기 </button>
-              <button type="button"> 장바구니 </button>
+              <a href="#"> 구매하기
+                <i class="fas fa-check"></i> 
+              </a>
+              <a href="#">장바구니 
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
           </li>
         </ul>
@@ -345,14 +383,18 @@
           <li>
             <div class="vinyl pic11"></div>
             <div class="vinyl_rarr">
-              <p> Charlie Puth(찰리 푸스) ‎– Nine Track Mind[LP] </p>
+              <p> charlie puth(찰리 푸스) ‎– nine track mind[LP] </p>
               <span> <del>41,900</del> </span>
               <span> 40,000 </span>
               <i></i>
             </div>
             <div class="vinyl_btn">
-              <button type="button"> 구매하기 </button>
-              <button type="button"> 장바구니 </button>
+              <a href="#"> 구매하기
+                <i class="fas fa-check"></i> 
+              </a>
+              <a href="#">장바구니 
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
           </li>
         </ul>
@@ -360,14 +402,18 @@
           <li>
             <div class="vinyl pic12"></div>
             <div class="vinyl_rarr">
-              <p> Ariana Grande(아리아나 그란데) - Positions[LP] </p>
+              <p> ariana grande(아리아나 그란데) - positions[LP] </p>
               <span> <del>41,900</del> </span>
               <span> 40,000 </span>
               <i></i>
             </div>
             <div class="vinyl_btn">
-              <button type="button"> 구매하기 </button>
-              <button type="button"> 장바구니 </button>
+              <a href="#"> 구매하기
+                <i class="fas fa-check"></i> 
+              </a>
+              <a href="#">장바구니 
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
           </li>
         </ul>

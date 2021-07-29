@@ -1,0 +1,29 @@
+/* css/ base/ root.css  */
+@charset "UTF-8";
+
+:root {
+  /* ---  color ---*/
+  --color-gray1: #8E989A;
+  --color-gray2:#ddd;
+  --color-gray3:#aaa;
+  --color-gray4:#666;
+  --color-gray5:#444;
+  --color-black:#222;
+  --color-white:#fff;
+  --color-navy1:#0F5D82;
+  --color-navy2:#0D445F;
+  --color-navy3:#1F2B39;
+  --color-primary:#E9C3A8;
+  --color-pink:#EFCDCE;
+  --color-green1:#A7B8B2;
+  --color-green2:#99ABA6;
+  --color-blue:#87A8B7;
+  --color-beige:#CEB4A7;
+  /* --- font-size ---*/
+  --font-size1 : 16px;
+  --font-size2 : 24px;
+  --font-size3 : 32px;
+  --font-size4 : 42px;
+  --font-size5 : 50px;
+  --font-size6 : 60px;
+}

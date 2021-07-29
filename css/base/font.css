@@ -1,0 +1,65 @@
+/* css/ base/ font. css */
+/* 에스코어 드림 100~ 900 까지 */
+
+@font-face { /* 1. thin / weight: 100 */
+  font-family: 'S-CoreDream_1';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { /* 2. ExtraLight / weight: 200 */
+  font-family: 'S-CoreDream_2';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { /* 3. Light / weight: 300 */
+  font-family: 'S-CoreDream_3';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { /* 4. Regular / weight: 400 */
+  font-family: 'S-CoreDream_4';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { /* 5. Medium / weight: 500 */
+  font-family: 'S-CoreDream_5';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { /* 6. Bold / weight: 600 */
+  font-family: 'S-CoreDream_6';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { /* 7. ExtraBold / weight: 700 */
+  font-family: 'S-CoreDream_7';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { /* 8. Heavy / weight: 800 */
+  font-family: 'S-CoreDream_8';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face { /* 9. Black / weight: 900 */
+  font-family: 'S-CoreDream_9';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
